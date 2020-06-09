@@ -9,4 +9,4 @@ F+K：该方法利用FSAC方法提取出每条Mashup服务描述（预处理后�
 
 F+C+K：该方法也是先将Mashup服务描述表示为MFSF向量，然后通过CCD-DI方法检测出最为合适的K个MFSF向量作为K-means的初始中心，进行聚类。其中，CCD-DI方法中的权重参数a为默认值0.5。
 
-其中，kmeans.py是通过调用sklearn中的_k_means.py方法实现。lda.py中的实现代码采用_lda_.py实现，tfidf.py中tfidf_model的实现方法采用text.py实现。
+其中，kmeans.py是通过调用sklearn中的_k_means.py方法实现。lda.py中的实现代码采用_lda_.py实现，tfidf.py中tfidf_model的实现方法采用text.py实现。top4.xlsx、top6.xlsx、top8.xlsx、top10.xlsx分别表示数量最多的前 4 类 （Top-4）、前 6 类（Top-6）、前 8 类（Top-8）、 前 10 类（Top-10）Mashup 服务。
